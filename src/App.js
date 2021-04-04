@@ -19,7 +19,10 @@ function App() {
             className="bg-info col-3 m-1 d-flex justify-content-center align-items-center"
             style={{ height: 150 }}
           >
-            A
+            <img
+              src="https://picsum.photos/200/150"
+              style={{ height: "100%" }}
+            />
           </div>
         ))}
       </div>
