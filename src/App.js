@@ -18,7 +18,7 @@ function App() {
           <div className="col-3"></div>
           <div
             className="col-6 bg-secondary text-light d-flex justify-content-center align-items-center"
-            style={{ height: 200 }}
+            style={{ height: "200px" }}
           >
             {data}
           </div>
