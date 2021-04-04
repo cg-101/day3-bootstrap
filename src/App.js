@@ -2,11 +2,10 @@ import "./App.css";
 
 function App() {
   return (
-    <div
-      className="bg-primary text-light h3 d-flex justify-content-center align-items-center"
-      style={{ height: "100vh" }}
-    >
-      Hello World
+    <div className="bg-primary d-flex justify-content-center " style={{}}>
+      <div className="bg-info">Child 1</div>
+      <div className="bg-success">Child 2 </div>
+      <div className="bg-warning">Child 3 </div>
     </div>
   );
 }
