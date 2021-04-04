@@ -38,6 +38,34 @@ function App() {
         >
           A
         </div>
+
+        <div
+          className="bg-info col-3 m-1 d-flex justify-content-center align-items-center"
+          style={{ height: 100 }}
+        >
+          A
+        </div>
+
+        <div
+          className="bg-success col-3 m-1 d-flex justify-content-center align-items-center"
+          style={{ height: 100 }}
+        >
+          A
+        </div>
+
+        <div
+          className="bg-info col-3 m-1 d-flex justify-content-center align-items-center"
+          style={{ height: 100 }}
+        >
+          A
+        </div>
+
+        <div
+          className="bg-info col-3 m-1 d-flex justify-content-center align-items-center"
+          style={{ height: 100 }}
+        >
+          A
+        </div>
       </div>
     </div>
   );
