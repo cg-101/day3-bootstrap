@@ -10,7 +10,7 @@ function App() {
         My Project
       </div>
 
-      <div className="row d-flex ">
+      <div className="row d-flex justify-content-center">
         <div
           className="bg-info col-3 m-1 d-flex justify-content-center align-items-center"
           style={{ height: 100 }}
