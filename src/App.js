@@ -1,6 +1,9 @@
+import { useState } from "react";
 import "./App.css";
 
 function App() {
+  const [list] = useState([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+
   return (
     <div className="container-fluid">
       <div
@@ -11,61 +14,14 @@ function App() {
       </div>
 
       <div className="row d-flex justify-content-center">
-        <div
-          className="bg-info col-3 m-1 d-flex justify-content-center align-items-center"
-          style={{ height: 100 }}
-        >
-          A
-        </div>
-
-        <div
-          className="bg-success col-3 m-1 d-flex justify-content-center align-items-center"
-          style={{ height: 100 }}
-        >
-          A
-        </div>
-
-        <div
-          className="bg-info col-3 m-1 d-flex justify-content-center align-items-center"
-          style={{ height: 100 }}
-        >
-          A
-        </div>
-
-        <div
-          className="bg-info col-3 m-1 d-flex justify-content-center align-items-center"
-          style={{ height: 100 }}
-        >
-          A
-        </div>
-
-        <div
-          className="bg-info col-3 m-1 d-flex justify-content-center align-items-center"
-          style={{ height: 100 }}
-        >
-          A
-        </div>
-
-        <div
-          className="bg-success col-3 m-1 d-flex justify-content-center align-items-center"
-          style={{ height: 100 }}
-        >
-          A
-        </div>
-
-        <div
-          className="bg-info col-3 m-1 d-flex justify-content-center align-items-center"
-          style={{ height: 100 }}
-        >
-          A
-        </div>
-
-        <div
-          className="bg-info col-3 m-1 d-flex justify-content-center align-items-center"
-          style={{ height: 100 }}
-        >
-          A
-        </div>
+        {list.map((data, index) => (
+          <div
+            className="bg-info col-3 m-1 d-flex justify-content-center align-items-center"
+            style={{ height: 150 }}
+          >
+            A
+          </div>
+        ))}
       </div>
     </div>
   );
