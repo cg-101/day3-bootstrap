@@ -1,10 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <button className="btn btn-primary">Click Me</button>
+    <div
+      className="bg-primary text-light h3 d-flex justify-content-center align-items-center"
+      style={{ height: "100vh" }}
+    >
+      Hello World
     </div>
   );
 }
